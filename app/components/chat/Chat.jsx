@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
-import SendMessagForm from './SendMessagForm';
-import MessageList from './MessageList';
+import SendMessagForm from './SendMessagForm.jsx';
+import MessageList from './MessageList.jsx';
 
 import styles from '../../App.css';
 

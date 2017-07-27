@@ -1,7 +1,7 @@
 import React from 'react';
 
-import MessageBox from './MessageBox';
-import StatusBox from './StatusBox';
+import MessageBox from './MessageBox.jsx';
+import StatusBox from './StatusBox.jsx';
 
 import styles from '../../App.css';
 

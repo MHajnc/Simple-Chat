@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Chat from './components/chat/Chat';
+import Chat from './components/chat/Chat.jsx';
 
 import styles from './App.css';
 
