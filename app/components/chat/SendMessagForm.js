@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../App.css';
+import styles from '../../App.css';
 
 export default class SendMessagForm extends React.Component {
 
@@ -26,7 +26,7 @@ export default class SendMessagForm extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.submit} className={styles.form} >
+      <form onSubmit={this.submit} className={styles.SendMessagForm} >
         <input value={this.state.text}
                onChange={this.change}
                className={styles.input}

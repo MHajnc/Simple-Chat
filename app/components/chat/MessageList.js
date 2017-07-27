@@ -1,9 +1,9 @@
 import React from 'react';
 
-import MessageBox from '../components/MessageBox';
-import StatusBox from '../components/StatusBox';
+import MessageBox from './MessageBox';
+import StatusBox from './StatusBox';
 
-import styles from '../App.css';
+import styles from '../../App.css';
 
 export default class MessageList extends React.Component {
   render() {
@@ -18,7 +18,7 @@ export default class MessageList extends React.Component {
           }
       );
     return (
-      <div className={styles.messageList}>
+      <div id="messageList" className={styles.messageList}>
         {listItems}
       </div>
     );

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../App.css';
+import styles from '../../App.css';
 
 export default class StatusBox extends React.Component {
   render() {
