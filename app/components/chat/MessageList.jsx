@@ -1,9 +1,7 @@
 import React from 'react';
-
 import MessageBox from './MessageBox.jsx';
 import StatusBox from './StatusBox.jsx';
-
-import styles from '../../App.css';
+import styles from './chat.css';
 
 export default class MessageList extends React.Component {
   render() {
@@ -18,7 +16,7 @@ export default class MessageList extends React.Component {
           }
       );
     return (
-      <div id="messageList" className={styles.messageList}>
+      <div id="messageList" className={styles.chat__messageList}>
         {listItems}
       </div>
     );

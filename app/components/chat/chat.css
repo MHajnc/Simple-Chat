@@ -9,7 +9,7 @@
   box-shadow: 5px 5px 16px 0px rgba(171,171,171,1);
 }
 
-.heading {
+.chat__heading {
   font-size: 1.5em;
   font-weight: bold;
   text-align: center;
@@ -18,13 +18,13 @@
   padding: 10px;
 }
 
-.messageList {
+.chat__messageList {
   height: 400px;
   overflow-y: auto;
   padding: 10px;
 }
 
-.userMessage {
+.chat__messageList__userMessage {
   text-align: right;
   padding: 10px;
   background-color: #ecf0f6;
@@ -32,58 +32,54 @@
   margin-top: 5px;
 }
 
-.incomingMessage {
+.chat__messageList__incomingMessage {
   background-color: #f4f4f4;
   padding: 10px;
   border-radius: 5px;
   margin-top: 5px;
 }
 
-.messageText {
+.chat__messageList__messageText {
   display: inline-block;
   max-width: 80%;
   word-wrap: break-word;
   background-color: #ffe598;
-  padding: 5px 5px 5px 5px;
+  padding: 5px;
   font-size: 1.3em;
   border-radius: 5px;
   box-shadow: 1px 1px 1px #888888;
 }
 
-.userText {
+.chat__messageList__userText {
   display: inline-block;
   max-width: 80%;
   word-wrap: break-word;
   background-color: #8eb7f4;
-  padding: 5px 5px 5px 5px;
+  padding: 5px;
   font-size: 1.3em;
   border-radius: 5px;
   box-shadow: 1px 1px 1px #888888;
   color: #eeeeee;
 }
 
-.messageTime {
-  color: grey;
-  margin-bottom: 5px;
-  margin-top: 3px;
-}
-
-.statusBox {
+.chat__messageList__statusBox {
   text-align: center;
   color: grey;
-  font-size: 1.5em;
-  font-weight: 200;
-  margin-top: 10px;
+  font-size: 1.3em;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
 }
 
-.SendMessagForm {
+.chat__SendMessagForm {
   margin: 0;
   padding: 0; 
   box-sizing: border-box;
   width: 100%;
 }
 
-.input {
+.chat__messageInput {
   margin: 0;
   box-sizing: border-box;
   border: 0;
@@ -92,16 +88,16 @@
   font-size: 1.3em;
   outline: none;
   background-color: #eeeeee;
+  border-bottom-left-radius: 5px;
 }
 
-.button {
+.chat__messageButton {
   margin: 0; 
-  padding: 0;
-  box-sizing: border-box;
+  padding: 10px;
   width: 20%;
   background: #8eb7f4;
   border: none;
-  padding: 10px;
   color: #eeeeee;
   font-size: 1.3em;
+  border-bottom-right-radius: 3px;
 }

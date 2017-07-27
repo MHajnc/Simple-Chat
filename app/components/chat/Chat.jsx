@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
-
 import SendMessagForm from './SendMessagForm.jsx';
 import MessageList from './MessageList.jsx';
-
-import styles from '../../App.css';
+import styles from './chat.css';
 
 export default class Chat extends React.Component {
 
@@ -79,11 +77,10 @@ export default class Chat extends React.Component {
   render() {
     return (
       <div className={styles.chat}>
-        <div className={styles.heading}>Simple chat</div>
+        <div className={styles.chat__heading}>Simple chat</div>
         <MessageList messagelist = {this.state.messages} />
         <SendMessagForm onMessageSubmit = {this.messageSend} />
       </div>
     );
   }
 }
-

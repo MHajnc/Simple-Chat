@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../App.css';
+import styles from './chat.css';
 
 export default class SendMessagForm extends React.Component {
 
@@ -26,14 +26,14 @@ export default class SendMessagForm extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.submit} className={styles.SendMessagForm} >
+      <form onSubmit={this.submit} className={styles.chat__SendMessagForm} >
         <input value={this.state.text}
                onChange={this.change}
-               className={styles.input}
+               className={styles.chat__messageInput}
                placeholder="Type your message"
                required
         />
-        <input type="submit" value="Send" className={styles.button} />
+        <input type="submit" value="Send" className={styles.chat__messageButton} />
       </form>
     );
   }

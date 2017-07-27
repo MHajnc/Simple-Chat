@@ -8,7 +8,7 @@ const config = require('./webpack.config.js');
 var fs = require('fs');
 var util = require('util');
 
-const port = 666;
+const port = 3000;
 const app = express();
 
 var server = require('http').Server(app);
