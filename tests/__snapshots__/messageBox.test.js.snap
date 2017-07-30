@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing MessageBox Component -> currentuser="false" 1`] = `
+<div
+  className="chat__messageList__incomingMessage"
+>
+  <div
+    className="chat__messageList__messageText"
+  >
+     
+    Hi man!
+     
+  </div>
+</div>
+`;
+
+exports[`Testing MessageBox Component -> currentuser="true" 1`] = `
+<div
+  className="chat__messageList__userMessage"
+>
+  <div
+    className="chat__messageList__userText"
+  >
+     
+    Hello!
+     
+  </div>
+</div>
+`;

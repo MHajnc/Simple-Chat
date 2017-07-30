@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing MessageList Component 1`] = `
+<div
+  className="chat__messageList"
+  id="messageList"
+>
+  <div
+    className="chat__messageList__userMessage"
+  >
+    <div
+      className="chat__messageList__userText"
+    >
+       
+      Hello!
+       
+    </div>
+  </div>
+  <div
+    className="chat__messageList__incomingMessage"
+  >
+    <div
+      className="chat__messageList__messageText"
+    >
+       
+      Hi there...
+       
+    </div>
+  </div>
+  <div
+    className="chat__messageList__userMessage"
+  >
+    <div
+      className="chat__messageList__userText"
+    >
+       
+      Do you want to talk?
+       
+    </div>
+  </div>
+  <div
+    className="chat__messageList__incomingMessage"
+  >
+    <div
+      className="chat__messageList__messageText"
+    >
+       
+      NO!!!
+       
+    </div>
+  </div>
+  <div
+    className="chat__messageList__statusBox"
+  >
+    someone left
+     - there 
+    is
+     
+    1
+     participant
+  </div>
+</div>
+`;
